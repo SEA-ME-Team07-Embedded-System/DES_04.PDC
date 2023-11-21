@@ -7,7 +7,13 @@
 	"INCLUDE_DIR" : "/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/ivi-compoitor_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/main.qml"
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/qml/main.qml",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/light_icon.png",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/navigate_icon.png",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/playing_icon.png",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/video_icon.png",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/car.png",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/house_icon.png"
 	],
 	"LOCK_FILE" : "/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles/ivi-compoitor_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Lock.lock",
 	"MULTI_CONFIG" : false,

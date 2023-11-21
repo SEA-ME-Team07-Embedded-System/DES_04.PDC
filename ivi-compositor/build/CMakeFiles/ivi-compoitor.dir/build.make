@@ -59,7 +59,13 @@ include CMakeFiles/ivi-compoitor.dir/flags.make
 
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/ivi-compositor.qrc
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: CMakeFiles/ivi-compoitor_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Info.json
-ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/main.qml
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/qml/main.qml
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/light_icon.png
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/navigate_icon.png
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/playing_icon.png
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/video_icon.png
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/car.png
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/house_icon.png
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/ivi-compositor.qrc"
 	/usr/bin/cmake -E cmake_autorcc /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles/ivi-compoitor_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Info.json 
