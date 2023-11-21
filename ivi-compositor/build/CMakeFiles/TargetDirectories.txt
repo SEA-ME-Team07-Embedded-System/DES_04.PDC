@@ -1,0 +1,4 @@
+/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles/rebuild_cache.dir
+/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles/edit_cache.dir
+/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles/wayland.dir
+/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles/wayland_autogen.dir
