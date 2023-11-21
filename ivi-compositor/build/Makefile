@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/ivi-compositor
+CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/ivi-compositor/build
+CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,30 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wayland
+# Target rules for targets named ivi-compoitor
 
 # Build rule for target.
-wayland: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wayland
-.PHONY : wayland
+ivi-compoitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ivi-compoitor
+.PHONY : ivi-compoitor
 
 # fast build rule for target.
-wayland/fast:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/build
-.PHONY : wayland/fast
+ivi-compoitor/fast:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/build
+.PHONY : ivi-compoitor/fast
 
 #=============================================================================
-# Target rules for targets named wayland_autogen
+# Target rules for targets named ivi-compoitor_autogen
 
 # Build rule for target.
-wayland_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wayland_autogen
-.PHONY : wayland_autogen
+ivi-compoitor_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ivi-compoitor_autogen
+.PHONY : ivi-compoitor_autogen
 
 # fast build rule for target.
-wayland_autogen/fast:
-	$(MAKE) -f CMakeFiles/wayland_autogen.dir/build.make CMakeFiles/wayland_autogen.dir/build
-.PHONY : wayland_autogen/fast
+ivi-compoitor_autogen/fast:
+	$(MAKE) -f CMakeFiles/ivi-compoitor_autogen.dir/build.make CMakeFiles/ivi-compoitor_autogen.dir/build
+.PHONY : ivi-compoitor_autogen/fast
+
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o: ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
+
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o
+
+# target to build an object file
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
+
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.i: ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
+
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.i
+
+# target to preprocess a source file
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
+
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.s: ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
+
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.s
+
+# target to generate assembly for a file
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
+.PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
+
+ivi-compoitor_autogen/mocs_compilation.o: ivi-compoitor_autogen/mocs_compilation.cpp.o
+
+.PHONY : ivi-compoitor_autogen/mocs_compilation.o
+
+# target to build an object file
+ivi-compoitor_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/mocs_compilation.cpp.o
+.PHONY : ivi-compoitor_autogen/mocs_compilation.cpp.o
+
+ivi-compoitor_autogen/mocs_compilation.i: ivi-compoitor_autogen/mocs_compilation.cpp.i
+
+.PHONY : ivi-compoitor_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ivi-compoitor_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/mocs_compilation.cpp.i
+.PHONY : ivi-compoitor_autogen/mocs_compilation.cpp.i
+
+ivi-compoitor_autogen/mocs_compilation.s: ivi-compoitor_autogen/mocs_compilation.cpp.s
+
+.PHONY : ivi-compoitor_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ivi-compoitor_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/mocs_compilation.cpp.s
+.PHONY : ivi-compoitor_autogen/mocs_compilation.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -142,7 +196,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -151,7 +205,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -160,62 +214,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.o: wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
-
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.o
-
-# target to build an object file
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
-
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.i: wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
-
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.i
-
-# target to preprocess a source file
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i
-
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.s: wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
-
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.s
-
-# target to generate assembly for a file
-wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
-.PHONY : wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.s
-
-wayland_autogen/mocs_compilation.o: wayland_autogen/mocs_compilation.cpp.o
-
-.PHONY : wayland_autogen/mocs_compilation.o
-
-# target to build an object file
-wayland_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/mocs_compilation.cpp.o
-.PHONY : wayland_autogen/mocs_compilation.cpp.o
-
-wayland_autogen/mocs_compilation.i: wayland_autogen/mocs_compilation.cpp.i
-
-.PHONY : wayland_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-wayland_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/mocs_compilation.cpp.i
-.PHONY : wayland_autogen/mocs_compilation.cpp.i
-
-wayland_autogen/mocs_compilation.s: wayland_autogen/mocs_compilation.cpp.s
-
-.PHONY : wayland_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-wayland_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/wayland_autogen/mocs_compilation.cpp.s
-.PHONY : wayland_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -225,17 +225,17 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... wayland"
-	@echo "... wayland_autogen"
+	@echo "... ivi-compoitor"
+	@echo "... ivi-compoitor_autogen"
+	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o"
+	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.i"
+	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.s"
+	@echo "... ivi-compoitor_autogen/mocs_compilation.o"
+	@echo "... ivi-compoitor_autogen/mocs_compilation.i"
+	@echo "... ivi-compoitor_autogen/mocs_compilation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.o"
-	@echo "... wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.i"
-	@echo "... wayland_autogen/UVLADIE3JM/qrc_ivi-compositor.s"
-	@echo "... wayland_autogen/mocs_compilation.o"
-	@echo "... wayland_autogen/mocs_compilation.i"
-	@echo "... wayland_autogen/mocs_compilation.s"
 .PHONY : help
 
 

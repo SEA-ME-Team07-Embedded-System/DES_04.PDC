@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/ivi-compositor
+CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/ivi-compositor/build
+CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/wayland.dir/all
+all: CMakeFiles/ivi-compoitor.dir/all
 
 .PHONY : all
 
@@ -63,64 +63,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/wayland.dir/clean
-clean: CMakeFiles/wayland_autogen.dir/clean
+clean: CMakeFiles/ivi-compoitor.dir/clean
+clean: CMakeFiles/ivi-compoitor_autogen.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/wayland.dir
+# Target rules for target CMakeFiles/ivi-compoitor.dir
 
 # All Build rule for target.
-CMakeFiles/wayland.dir/all: CMakeFiles/wayland_autogen.dir/all
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/depend
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target wayland"
-.PHONY : CMakeFiles/wayland.dir/all
+CMakeFiles/ivi-compoitor.dir/all: CMakeFiles/ivi-compoitor_autogen.dir/all
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/depend
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target ivi-compoitor"
+.PHONY : CMakeFiles/ivi-compoitor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/wayland.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wayland.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles 0
-.PHONY : CMakeFiles/wayland.dir/rule
+CMakeFiles/ivi-compoitor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ivi-compoitor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles 0
+.PHONY : CMakeFiles/ivi-compoitor.dir/rule
 
 # Convenience name for target.
-wayland: CMakeFiles/wayland.dir/rule
+ivi-compoitor: CMakeFiles/ivi-compoitor.dir/rule
 
-.PHONY : wayland
+.PHONY : ivi-compoitor
 
 # clean rule for target.
-CMakeFiles/wayland.dir/clean:
-	$(MAKE) -f CMakeFiles/wayland.dir/build.make CMakeFiles/wayland.dir/clean
-.PHONY : CMakeFiles/wayland.dir/clean
+CMakeFiles/ivi-compoitor.dir/clean:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/clean
+.PHONY : CMakeFiles/ivi-compoitor.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/wayland_autogen.dir
+# Target rules for target CMakeFiles/ivi-compoitor_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/wayland_autogen.dir/all:
-	$(MAKE) -f CMakeFiles/wayland_autogen.dir/build.make CMakeFiles/wayland_autogen.dir/depend
-	$(MAKE) -f CMakeFiles/wayland_autogen.dir/build.make CMakeFiles/wayland_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles --progress-num=6 "Built target wayland_autogen"
-.PHONY : CMakeFiles/wayland_autogen.dir/all
+CMakeFiles/ivi-compoitor_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/ivi-compoitor_autogen.dir/build.make CMakeFiles/ivi-compoitor_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/ivi-compoitor_autogen.dir/build.make CMakeFiles/ivi-compoitor_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=6 "Built target ivi-compoitor_autogen"
+.PHONY : CMakeFiles/ivi-compoitor_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/wayland_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wayland_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/ivi-compositor/build/CMakeFiles 0
-.PHONY : CMakeFiles/wayland_autogen.dir/rule
+CMakeFiles/ivi-compoitor_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ivi-compoitor_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles 0
+.PHONY : CMakeFiles/ivi-compoitor_autogen.dir/rule
 
 # Convenience name for target.
-wayland_autogen: CMakeFiles/wayland_autogen.dir/rule
+ivi-compoitor_autogen: CMakeFiles/ivi-compoitor_autogen.dir/rule
 
-.PHONY : wayland_autogen
+.PHONY : ivi-compoitor_autogen
 
 # clean rule for target.
-CMakeFiles/wayland_autogen.dir/clean:
-	$(MAKE) -f CMakeFiles/wayland_autogen.dir/build.make CMakeFiles/wayland_autogen.dir/clean
-.PHONY : CMakeFiles/wayland_autogen.dir/clean
+CMakeFiles/ivi-compoitor_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/ivi-compoitor_autogen.dir/build.make CMakeFiles/ivi-compoitor_autogen.dir/clean
+.PHONY : CMakeFiles/ivi-compoitor_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -112,13 +112,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/wayland_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/wayland_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Info.json"
+  "CMakeFiles/ivi-compoitor_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/ivi-compoitor_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/wayland.dir/DependInfo.cmake"
-  "CMakeFiles/wayland_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/ivi-compoitor.dir/DependInfo.cmake"
+  "CMakeFiles/ivi-compoitor_autogen.dir/DependInfo.cmake"
   )

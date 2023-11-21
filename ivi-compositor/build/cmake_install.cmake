@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation05/Desktop/ivi-compositor
+# Install script for directory: /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/seame-workstation05/Desktop/ivi-compositor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
