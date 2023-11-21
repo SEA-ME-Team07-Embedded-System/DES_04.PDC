@@ -7,6 +7,10 @@ import QtPositioning 5.12
 
 Window {
     visible: true
+    
+    ValueSource {
+        id: valueSource
+    }
 
     id: naviPage
     color: "red"

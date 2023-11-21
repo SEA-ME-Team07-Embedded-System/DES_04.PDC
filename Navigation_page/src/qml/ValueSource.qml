@@ -1,5 +1,4 @@
 import QtQuick 2.2
-import com.example 1.0
 
 //! [0]
 Item {
