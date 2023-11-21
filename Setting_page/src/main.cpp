@@ -5,19 +5,14 @@
 #include "piracersomeipmanager.h"
 #include <QQmlContext>
 #include <QCoreApplication>
-#include <QtWebEngine/QtWebEngine>
-
 
 int main(int argc, char *argv[])
 {
-    qputenv("QSG_RENDER_LOOP","threaded");
-    qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
     QGuiApplication app(argc, argv);
-    QtWebEngine::initialize();
 
     //SOMEIP for CAN
     SomeIPManager someipManager;
@@ -38,7 +33,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<MethodCallSomeIPManager>("com.example", 1, 0, "PiracerSomeIPManager");
 
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/Settingpage.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
         &app, [url](QObject *obj, const QUrl &objUrl) {
             if (!obj && url == objUrl)
