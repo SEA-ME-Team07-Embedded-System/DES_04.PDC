@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit
+CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build
+CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,192 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Head_Unit
+# Target rules for targets named NavigationPage
 
 # Build rule for target.
-Head_Unit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Head_Unit
-.PHONY : Head_Unit
+NavigationPage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NavigationPage
+.PHONY : NavigationPage
 
 # fast build rule for target.
-Head_Unit/fast:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/build
-.PHONY : Head_Unit/fast
+NavigationPage/fast:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/build
+.PHONY : NavigationPage/fast
 
 #=============================================================================
-# Target rules for targets named Head_Unit_autogen
+# Target rules for targets named NavigationPage_autogen
 
 # Build rule for target.
-Head_Unit_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Head_Unit_autogen
-.PHONY : Head_Unit_autogen
+NavigationPage_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NavigationPage_autogen
+.PHONY : NavigationPage_autogen
 
 # fast build rule for target.
-Head_Unit_autogen/fast:
-	$(MAKE) -f CMakeFiles/Head_Unit_autogen.dir/build.make CMakeFiles/Head_Unit_autogen.dir/build
-.PHONY : Head_Unit_autogen/fast
+NavigationPage_autogen/fast:
+	$(MAKE) -f CMakeFiles/NavigationPage_autogen.dir/build.make CMakeFiles/NavigationPage_autogen.dir/build
+.PHONY : NavigationPage_autogen/fast
 
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.o: Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.o: NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o
 
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.o
-
-# target to build an object file
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.o
-
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.i: Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.i
-
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.i
-
-# target to preprocess a source file
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.i
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.i
-
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.s: Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.s
-
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.s
-
-# target to generate assembly for a file
-Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.s
-.PHONY : Head_Unit_autogen/UVLADIE3JM/qrc_qml.cpp.s
-
-Head_Unit_autogen/mocs_compilation.o: Head_Unit_autogen/mocs_compilation.cpp.o
-
-.PHONY : Head_Unit_autogen/mocs_compilation.o
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.o
 
 # target to build an object file
-Head_Unit_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/mocs_compilation.cpp.o
-.PHONY : Head_Unit_autogen/mocs_compilation.cpp.o
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o
 
-Head_Unit_autogen/mocs_compilation.i: Head_Unit_autogen/mocs_compilation.cpp.i
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.i: NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.i
 
-.PHONY : Head_Unit_autogen/mocs_compilation.i
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.i
 
 # target to preprocess a source file
-Head_Unit_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/mocs_compilation.cpp.i
-.PHONY : Head_Unit_autogen/mocs_compilation.cpp.i
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.i:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.i
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.i
 
-Head_Unit_autogen/mocs_compilation.s: Head_Unit_autogen/mocs_compilation.cpp.s
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.s: NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.s
 
-.PHONY : Head_Unit_autogen/mocs_compilation.s
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.s
 
 # target to generate assembly for a file
-Head_Unit_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/Head_Unit_autogen/mocs_compilation.cpp.s
-.PHONY : Head_Unit_autogen/mocs_compilation.cpp.s
+NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.s:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.s
+.PHONY : NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.s
 
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+NavigationPage_autogen/mocs_compilation.o: NavigationPage_autogen/mocs_compilation.cpp.o
 
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o
+.PHONY : NavigationPage_autogen/mocs_compilation.o
 
 # target to build an object file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+NavigationPage_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.o
+.PHONY : NavigationPage_autogen/mocs_compilation.cpp.o
 
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
+NavigationPage_autogen/mocs_compilation.i: NavigationPage_autogen/mocs_compilation.cpp.i
 
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i
-
-# target to preprocess a source file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s
-
-# target to generate assembly for a file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o
-
-# target to build an object file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i
+.PHONY : NavigationPage_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
+NavigationPage_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.i
+.PHONY : NavigationPage_autogen/mocs_compilation.cpp.i
 
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
+NavigationPage_autogen/mocs_compilation.s: NavigationPage_autogen/mocs_compilation.cpp.s
 
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s
-
-# target to generate assembly for a file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o
-
-# target to build an object file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i
-
-# target to preprocess a source file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s
+.PHONY : NavigationPage_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o
-
-# target to build an object file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i
-
-# target to preprocess a source file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
-
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s: home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
-
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s
-
-# target to generate assembly for a file
-home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
-.PHONY : home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+NavigationPage_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.s
+.PHONY : NavigationPage_autogen/mocs_compilation.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -304,7 +196,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -313,7 +205,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -322,89 +214,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/methodcallsomeipmanager.o: src/methodcallsomeipmanager.cpp.o
-
-.PHONY : src/methodcallsomeipmanager.o
-
-# target to build an object file
-src/methodcallsomeipmanager.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/methodcallsomeipmanager.cpp.o
-.PHONY : src/methodcallsomeipmanager.cpp.o
-
-src/methodcallsomeipmanager.i: src/methodcallsomeipmanager.cpp.i
-
-.PHONY : src/methodcallsomeipmanager.i
-
-# target to preprocess a source file
-src/methodcallsomeipmanager.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/methodcallsomeipmanager.cpp.i
-.PHONY : src/methodcallsomeipmanager.cpp.i
-
-src/methodcallsomeipmanager.s: src/methodcallsomeipmanager.cpp.s
-
-.PHONY : src/methodcallsomeipmanager.s
-
-# target to generate assembly for a file
-src/methodcallsomeipmanager.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/methodcallsomeipmanager.cpp.s
-.PHONY : src/methodcallsomeipmanager.cpp.s
-
-src/piracersomeipmanager.o: src/piracersomeipmanager.cpp.o
-
-.PHONY : src/piracersomeipmanager.o
-
-# target to build an object file
-src/piracersomeipmanager.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/piracersomeipmanager.cpp.o
-.PHONY : src/piracersomeipmanager.cpp.o
-
-src/piracersomeipmanager.i: src/piracersomeipmanager.cpp.i
-
-.PHONY : src/piracersomeipmanager.i
-
-# target to preprocess a source file
-src/piracersomeipmanager.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/piracersomeipmanager.cpp.i
-.PHONY : src/piracersomeipmanager.cpp.i
-
-src/piracersomeipmanager.s: src/piracersomeipmanager.cpp.s
-
-.PHONY : src/piracersomeipmanager.s
-
-# target to generate assembly for a file
-src/piracersomeipmanager.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/piracersomeipmanager.cpp.s
-.PHONY : src/piracersomeipmanager.cpp.s
-
-src/someipmanager.o: src/someipmanager.cpp.o
-
-.PHONY : src/someipmanager.o
-
-# target to build an object file
-src/someipmanager.cpp.o:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/someipmanager.cpp.o
-.PHONY : src/someipmanager.cpp.o
-
-src/someipmanager.i: src/someipmanager.cpp.i
-
-.PHONY : src/someipmanager.i
-
-# target to preprocess a source file
-src/someipmanager.cpp.i:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/someipmanager.cpp.i
-.PHONY : src/someipmanager.cpp.i
-
-src/someipmanager.s: src/someipmanager.cpp.s
-
-.PHONY : src/someipmanager.s
-
-# target to generate assembly for a file
-src/someipmanager.cpp.s:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/src/someipmanager.cpp.s
-.PHONY : src/someipmanager.cpp.s
 
 # Help Target
 help:
@@ -414,38 +225,17 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Head_Unit"
-	@echo "... Head_Unit_autogen"
-	@echo "... Head_Unit_autogen/UVLADIE3JM/qrc_qml.o"
-	@echo "... Head_Unit_autogen/UVLADIE3JM/qrc_qml.i"
-	@echo "... Head_Unit_autogen/UVLADIE3JM/qrc_qml.s"
-	@echo "... Head_Unit_autogen/mocs_compilation.o"
-	@echo "... Head_Unit_autogen/mocs_compilation.i"
-	@echo "... Head_Unit_autogen/mocs_compilation.s"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i"
-	@echo "... home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s"
+	@echo "... NavigationPage"
+	@echo "... NavigationPage_autogen"
+	@echo "... NavigationPage_autogen/UVLADIE3JM/qrc_qml.o"
+	@echo "... NavigationPage_autogen/UVLADIE3JM/qrc_qml.i"
+	@echo "... NavigationPage_autogen/UVLADIE3JM/qrc_qml.s"
+	@echo "... NavigationPage_autogen/mocs_compilation.o"
+	@echo "... NavigationPage_autogen/mocs_compilation.i"
+	@echo "... NavigationPage_autogen/mocs_compilation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/methodcallsomeipmanager.o"
-	@echo "... src/methodcallsomeipmanager.i"
-	@echo "... src/methodcallsomeipmanager.s"
-	@echo "... src/piracersomeipmanager.o"
-	@echo "... src/piracersomeipmanager.i"
-	@echo "... src/piracersomeipmanager.s"
-	@echo "... src/someipmanager.o"
-	@echo "... src/someipmanager.i"
-	@echo "... src/someipmanager.s"
 .PHONY : help
 
 

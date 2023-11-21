@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit
+CMAKE_SOURCE_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build
+CMAKE_BINARY_DIR = /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Head_Unit.dir/all
+all: CMakeFiles/NavigationPage.dir/all
 
 .PHONY : all
 
@@ -63,64 +63,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Head_Unit.dir/clean
-clean: CMakeFiles/Head_Unit_autogen.dir/clean
+clean: CMakeFiles/NavigationPage.dir/clean
+clean: CMakeFiles/NavigationPage_autogen.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Head_Unit.dir
+# Target rules for target CMakeFiles/NavigationPage.dir
 
 # All Build rule for target.
-CMakeFiles/Head_Unit.dir/all: CMakeFiles/Head_Unit_autogen.dir/all
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/depend
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Head_Unit"
-.PHONY : CMakeFiles/Head_Unit.dir/all
+CMakeFiles/NavigationPage.dir/all: CMakeFiles/NavigationPage_autogen.dir/all
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/depend
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target NavigationPage"
+.PHONY : CMakeFiles/NavigationPage.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Head_Unit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Head_Unit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/Head_Unit.dir/rule
+CMakeFiles/NavigationPage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NavigationPage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles 0
+.PHONY : CMakeFiles/NavigationPage.dir/rule
 
 # Convenience name for target.
-Head_Unit: CMakeFiles/Head_Unit.dir/rule
+NavigationPage: CMakeFiles/NavigationPage.dir/rule
 
-.PHONY : Head_Unit
+.PHONY : NavigationPage
 
 # clean rule for target.
-CMakeFiles/Head_Unit.dir/clean:
-	$(MAKE) -f CMakeFiles/Head_Unit.dir/build.make CMakeFiles/Head_Unit.dir/clean
-.PHONY : CMakeFiles/Head_Unit.dir/clean
+CMakeFiles/NavigationPage.dir/clean:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/clean
+.PHONY : CMakeFiles/NavigationPage.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Head_Unit_autogen.dir
+# Target rules for target CMakeFiles/NavigationPage_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/Head_Unit_autogen.dir/all:
-	$(MAKE) -f CMakeFiles/Head_Unit_autogen.dir/build.make CMakeFiles/Head_Unit_autogen.dir/depend
-	$(MAKE) -f CMakeFiles/Head_Unit_autogen.dir/build.make CMakeFiles/Head_Unit_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles --progress-num=13 "Built target Head_Unit_autogen"
-.PHONY : CMakeFiles/Head_Unit_autogen.dir/all
+CMakeFiles/NavigationPage_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/NavigationPage_autogen.dir/build.make CMakeFiles/NavigationPage_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/NavigationPage_autogen.dir/build.make CMakeFiles/NavigationPage_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=6 "Built target NavigationPage_autogen"
+.PHONY : CMakeFiles/NavigationPage_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Head_Unit_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Head_Unit_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_03.Head-Unit/infotainment/head_unit/build/CMakeFiles 0
-.PHONY : CMakeFiles/Head_Unit_autogen.dir/rule
+CMakeFiles/NavigationPage_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NavigationPage_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles 0
+.PHONY : CMakeFiles/NavigationPage_autogen.dir/rule
 
 # Convenience name for target.
-Head_Unit_autogen: CMakeFiles/Head_Unit_autogen.dir/rule
+NavigationPage_autogen: CMakeFiles/NavigationPage_autogen.dir/rule
 
-.PHONY : Head_Unit_autogen
+.PHONY : NavigationPage_autogen
 
 # clean rule for target.
-CMakeFiles/Head_Unit_autogen.dir/clean:
-	$(MAKE) -f CMakeFiles/Head_Unit_autogen.dir/build.make CMakeFiles/Head_Unit_autogen.dir/clean
-.PHONY : CMakeFiles/Head_Unit_autogen.dir/clean
+CMakeFiles/NavigationPage_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/NavigationPage_autogen.dir/build.make CMakeFiles/NavigationPage_autogen.dir/clean
+.PHONY : CMakeFiles/NavigationPage_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
