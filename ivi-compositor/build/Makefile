@@ -136,6 +136,60 @@ ivi-compoitor_autogen/fast:
 	$(MAKE) -f CMakeFiles/ivi-compoitor_autogen.dir/build.make CMakeFiles/ivi-compoitor_autogen.dir/build
 .PHONY : ivi-compoitor_autogen/fast
 
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o
+
+# target to build an object file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
+
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i
+
+# target to preprocess a source file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
+
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s
+
+# target to generate assembly for a file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
+
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o
+
+# target to build an object file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
+
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i
+
+# target to preprocess a source file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
+
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s: home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s
+
+# target to generate assembly for a file
+home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o: ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
 
 .PHONY : ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o
@@ -217,6 +271,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/piracersomeipmanager.o: src/piracersomeipmanager.cpp.o
+
+.PHONY : src/piracersomeipmanager.o
+
+# target to build an object file
+src/piracersomeipmanager.cpp.o:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o
+.PHONY : src/piracersomeipmanager.cpp.o
+
+src/piracersomeipmanager.i: src/piracersomeipmanager.cpp.i
+
+.PHONY : src/piracersomeipmanager.i
+
+# target to preprocess a source file
+src/piracersomeipmanager.cpp.i:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.i
+.PHONY : src/piracersomeipmanager.cpp.i
+
+src/piracersomeipmanager.s: src/piracersomeipmanager.cpp.s
+
+.PHONY : src/piracersomeipmanager.s
+
+# target to generate assembly for a file
+src/piracersomeipmanager.cpp.s:
+	$(MAKE) -f CMakeFiles/ivi-compoitor.dir/build.make CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.s
+.PHONY : src/piracersomeipmanager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -227,6 +308,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... ivi-compoitor"
 	@echo "... ivi-compoitor_autogen"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.o"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.i"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.s"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.o"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.i"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.s"
 	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.o"
 	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.i"
 	@echo "... ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.s"
@@ -236,6 +323,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/piracersomeipmanager.o"
+	@echo "... src/piracersomeipmanager.i"
+	@echo "... src/piracersomeipmanager.s"
 .PHONY : help
 
 

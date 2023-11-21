@@ -7,6 +7,7 @@
 	"INCLUDE_DIR" : "/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/ivi-compoitor_autogen/include",
 	"INPUTS" : 
 	[
+		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/qml/ValueSource.qml",
 		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/qml/main.qml",
 		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/light_icon.png",
 		"/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/image/navigate_icon.png",

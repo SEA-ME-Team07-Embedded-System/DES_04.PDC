@@ -59,6 +59,7 @@ include CMakeFiles/ivi-compoitor.dir/flags.make
 
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/ivi-compositor.qrc
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: CMakeFiles/ivi-compoitor_autogen.dir/AutoRcc_ivi-compositor_UVLADIE3JM_Info.json
+ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/qml/ValueSource.qml
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/qml/main.qml
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/light_icon.png
 ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp: ../src/image/navigate_icon.png
@@ -96,9 +97,48 @@ CMakeFiles/ivi-compoitor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ivi-compoitor.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/main.cpp -o CMakeFiles/ivi-compoitor.dir/src/main.cpp.s
 
+CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o: CMakeFiles/ivi-compoitor.dir/flags.make
+CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o: ../src/piracersomeipmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/piracersomeipmanager.cpp
+
+CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/piracersomeipmanager.cpp > CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.i
+
+CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/src/piracersomeipmanager.cpp -o CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.s
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o: CMakeFiles/ivi-compoitor.dir/flags.make
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o: /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp > CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.i
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp -o CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.s
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o: CMakeFiles/ivi-compoitor.dir/flags.make
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o: /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp > CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.i
+
+CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp -o CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.s
+
 CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o: CMakeFiles/ivi-compoitor.dir/flags.make
 CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o: ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp
 
 CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.i: cmake_force
@@ -113,6 +153,9 @@ CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor
 ivi__compoitor_OBJECTS = \
 "CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/ivi-compoitor.dir/src/main.cpp.o" \
+"CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o" \
+"CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o" \
+"CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o" \
 "CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o"
 
 # External object files for target ivi-compoitor
@@ -120,6 +163,9 @@ ivi__compoitor_EXTERNAL_OBJECTS =
 
 ivi-compoitor: CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/mocs_compilation.cpp.o
 ivi-compoitor: CMakeFiles/ivi-compoitor.dir/src/main.cpp.o
+ivi-compoitor: CMakeFiles/ivi-compoitor.dir/src/piracersomeipmanager.cpp.o
+ivi-compoitor: CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp.o
+ivi-compoitor: CMakeFiles/ivi-compoitor.dir/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp.o
 ivi-compoitor: CMakeFiles/ivi-compoitor.dir/ivi-compoitor_autogen/UVLADIE3JM/qrc_ivi-compositor.cpp.o
 ivi-compoitor: CMakeFiles/ivi-compoitor.dir/build.make
 ivi-compoitor: /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.12.8
@@ -130,7 +176,7 @@ ivi-compoitor: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.12.8
 ivi-compoitor: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 ivi-compoitor: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 ivi-compoitor: CMakeFiles/ivi-compoitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ivi-compoitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/ivi-compositor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ivi-compoitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ivi-compoitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

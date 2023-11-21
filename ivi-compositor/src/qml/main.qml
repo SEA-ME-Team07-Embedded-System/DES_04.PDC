@@ -7,6 +7,11 @@ import QtQuick.Layouts 1.12
 WaylandCompositor {
     WaylandOutput {
         sizeFollowsWindow: true
+
+        ValueSource {
+            id: valueSource
+        }
+
         window: Window {
             id: main_window
             width: 1024
