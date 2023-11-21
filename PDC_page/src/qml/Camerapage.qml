@@ -1,8 +1,14 @@
 import QtQuick 2.12
 import QtMultimedia 5.12
+import QtQuick.Window 2.12
 
-Rectangle { // Main container
+Window { // Main container
     color: "#dfe4ea"
+    visible: true
+
+    ValueSource {
+        id: valueSource
+    }
 
     // Left half - Camera feed
     Rectangle {
@@ -101,8 +107,14 @@ Rectangle { // Main container
             scale: 0.5
         }
         Text {
+            id: reardistext
             anchors.bottom: parent.bottom
-            text: "Distance : " + valueSource.r_dis + "cm"
+            text: "Rear Distance : " + valueSource.r_dis + "cm"
+            font.pixelSize: parent.width*0.05
+        }
+        Text {
+            anchors.bottom: reardistext.top
+            text: "Front Distance : " + valueSource.f_dis + "cm"
             font.pixelSize: parent.width*0.05
         }
     }

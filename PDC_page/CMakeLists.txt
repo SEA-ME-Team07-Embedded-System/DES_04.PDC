@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Head_Unit)
+project(PDCPage)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -22,13 +22,11 @@ link_directories(
     ~/build-commonapi/vsomeip/build
 )
 
-find_package(Qt5 COMPONENTS Core Quick Gui Multimedia VirtualKeyboard Location Positioning WebEngine REQUIRED)
+find_package(Qt5 COMPONENTS Core Quick Gui Multimedia REQUIRED)
 
-add_executable(Head_Unit
+add_executable(PDCPage
         src/main.cpp
         src/someipmanager.cpp
-        src/methodcallsomeipmanager.cpp
-        src/piracersomeipmanager.cpp
         src/qml.qrc
         ../can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp
         ../can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp
@@ -37,19 +35,15 @@ add_executable(Head_Unit
 
         )
 
-target_compile_definitions(Head_Unit
+target_compile_definitions(PDCPage
 PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
 
-target_link_libraries(Head_Unit
+target_link_libraries(PDCPage
 PRIVATE 
     Qt5::Core 
     Qt5::Quick 
     Qt5::Gui 
     Qt5::Multimedia 
-    Qt5::Location 
-    Qt5::Positioning 
-    Qt5::WebEngine
-    Qt5::VirtualKeyboard
     CommonAPI 
     CommonAPI-SomeIP 
     vsomeip3
