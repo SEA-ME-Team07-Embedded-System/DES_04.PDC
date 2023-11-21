@@ -92,9 +92,48 @@ CMakeFiles/NavigationPage.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NavigationPage.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/main.cpp -o CMakeFiles/NavigationPage.dir/src/main.cpp.s
 
+CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o: CMakeFiles/NavigationPage.dir/flags.make
+CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o: ../src/someipmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.cpp
+
+CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.cpp > CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.i
+
+CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.cpp -o CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.s
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o: CMakeFiles/NavigationPage.dir/flags.make
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o: /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp > CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp -o CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o: CMakeFiles/NavigationPage.dir/flags.make
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o: /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp > CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
+
+CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp -o CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
+
 CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o: CMakeFiles/NavigationPage.dir/flags.make
 CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o: NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o -c /home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp
 
 CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.i: cmake_force
@@ -109,6 +148,9 @@ CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.s: c
 NavigationPage_OBJECTS = \
 "CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/NavigationPage.dir/src/main.cpp.o" \
+"CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o" \
+"CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o" \
+"CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o" \
 "CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o"
 
 # External object files for target NavigationPage
@@ -116,6 +158,9 @@ NavigationPage_EXTERNAL_OBJECTS =
 
 NavigationPage: CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.o
 NavigationPage: CMakeFiles/NavigationPage.dir/src/main.cpp.o
+NavigationPage: CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o
+NavigationPage: CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+NavigationPage: CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
 NavigationPage: CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o
 NavigationPage: CMakeFiles/NavigationPage.dir/build.make
 NavigationPage: /usr/lib/x86_64-linux-gnu/libQt5Location.so.5.12.8
@@ -127,7 +172,7 @@ NavigationPage: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.12.8
 NavigationPage: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 NavigationPage: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 NavigationPage: CMakeFiles/NavigationPage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable NavigationPage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NavigationPage"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NavigationPage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -190,6 +190,60 @@ NavigationPage_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.s
 .PHONY : NavigationPage_autogen/mocs_compilation.cpp.s
 
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o
+
+# target to build an object file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o
+
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i
+
+# target to preprocess a source file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.i
+
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s
+
+# target to generate assembly for a file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.s
+
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o
+
+# target to build an object file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o
+
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i
+
+# target to preprocess a source file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.i
+
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s: home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
+
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s
+
+# target to generate assembly for a file
+home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
+.PHONY : home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -217,6 +271,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/someipmanager.o: src/someipmanager.cpp.o
+
+.PHONY : src/someipmanager.o
+
+# target to build an object file
+src/someipmanager.cpp.o:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o
+.PHONY : src/someipmanager.cpp.o
+
+src/someipmanager.i: src/someipmanager.cpp.i
+
+.PHONY : src/someipmanager.i
+
+# target to preprocess a source file
+src/someipmanager.cpp.i:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.i
+.PHONY : src/someipmanager.cpp.i
+
+src/someipmanager.s: src/someipmanager.cpp.s
+
+.PHONY : src/someipmanager.s
+
+# target to generate assembly for a file
+src/someipmanager.cpp.s:
+	$(MAKE) -f CMakeFiles/NavigationPage.dir/build.make CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.s
+.PHONY : src/someipmanager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,9 +314,18 @@ help:
 	@echo "... NavigationPage_autogen/mocs_compilation.o"
 	@echo "... NavigationPage_autogen/mocs_compilation.i"
 	@echo "... NavigationPage_autogen/mocs_compilation.s"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.o"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.i"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.s"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.o"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.i"
+	@echo "... home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/someipmanager.o"
+	@echo "... src/someipmanager.i"
+	@echo "... src/someipmanager.s"
 .PHONY : help
 
 

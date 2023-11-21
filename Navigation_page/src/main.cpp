@@ -1,5 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include "someipmanager.h"
 #include <QQmlContext>
 #include <QCoreApplication>
 #include <QtWebEngine/QtWebEngine>
@@ -14,6 +15,13 @@ int main(int argc, char *argv[])
 #endif
     QGuiApplication app(argc, argv);
 
+    //SOMEIP for CAN
+    SomeIPManager someipManager;
+    someipManager.initVsomeipClient();
+    someipManager.startSubscribeRPM();
+    someipManager.startSubscribeFDis();
+    someipManager.startSubscribeRDis();
+
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qml/Navipage.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
@@ -21,6 +29,9 @@ int main(int argc, char *argv[])
             if (!obj && url == objUrl)
                 QCoreApplication::exit(-1);
         }, Qt::QueuedConnection);
+
+    // Expose objects to QML
+    engine.rootContext()->setContextProperty("someipManager", &someipManager);
 
     engine.load(url);
 

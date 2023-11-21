@@ -5,7 +5,24 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_SOURCE_DIR" : "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.h",
+			"MU",
+			"UVLADIE3JM/moc_someipmanager.cpp"
+		],
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.hpp",
+			"MU",
+			"VU6VQOO63L/moc_CANSomeIPDeployment.cpp"
+		],
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.hpp",
+			"MU",
+			"VU6VQOO63L/moc_CANSomeIPProxy.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/NavigationPage_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/NavigationPage_autogen/mocs_compilation.cpp",
@@ -30,6 +47,11 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen",
+		"/home/seame-workstation05/Desktop/DES_04.PDC/piracer-interface/src-gen",
+		"/home/seame-workstation05/build-commonapi/capicxx-core-runtime/include",
+		"/home/seame-workstation05/build-commonapi/capicxx-someip-runtime/include",
+		"/home/seame-workstation05/build-commonapi/vsomeip/interface",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -73,6 +95,18 @@
 	[
 		[
 			"/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/main.cpp",
+			"MU"
+		],
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.cpp",
+			"MU"
+		],
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp",
+			"MU"
+		],
+		[
+			"/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp",
 			"MU"
 		]
 	],

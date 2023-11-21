@@ -6,7 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/NavigationPage_autogen/UVLADIE3JM/qrc_qml.cpp.o"
   "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/NavigationPage_autogen/mocs_compilation.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/NavigationPage_autogen/mocs_compilation.cpp.o"
+  "/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPDeployment.cpp.o"
+  "/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/home/seame-workstation05/Desktop/DES_04.PDC/can-interface/src-gen/v1/commonapi/CANSomeIPProxy.cpp.o"
   "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/main.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/src/main.cpp.o"
+  "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/src/someipmanager.cpp" "/home/seame-workstation05/Desktop/DES_04.PDC/Navigation_page/build/CMakeFiles/NavigationPage.dir/src/someipmanager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,6 +29,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "NavigationPage_autogen/include"
+  "../../can-interface/src-gen"
+  "../../piracer-interface/src-gen"
+  "/home/seame-workstation05/build-commonapi/capicxx-core-runtime/include"
+  "/home/seame-workstation05/build-commonapi/capicxx-someip-runtime/include"
+  "/home/seame-workstation05/build-commonapi/vsomeip/interface"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

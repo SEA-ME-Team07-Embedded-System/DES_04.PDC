@@ -41,21 +41,4 @@ Item {
             valueSource.longi += valueSource.kph/10000000;
         }
     }
-
-    Connections{
-        target: piracersomeipManager
-
-        onBatteryChanged: {
-            //console.log("onBatteryChanged")
-            valueSource.fuel = battery; // Update kph property when speed changes
-        }
-        onGearChanged: {
-            //console.log("onGearChanged")
-            valueSource.gear = gear;
-        }
-        onModeChanged: {
-            console.log("onModeChanged")
-            valueSource.mode = mode;
-        }
-    }
  }
