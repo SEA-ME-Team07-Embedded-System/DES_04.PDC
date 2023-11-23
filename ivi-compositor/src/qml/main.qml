@@ -5,6 +5,97 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 
 WaylandCompositor {
+    Component {
+        id: chromeComponent
+        ShellSurfaceItem {
+            anchors.fill: parent
+            onSurfaceDestroyed: destroy()
+            onWidthChanged: handleResized()
+            onHeightChanged: handleResized()
+            function handleResized() {
+                shellSurface.sendConfigure(Qt.size(width, height));
+            }
+        }
+    }
+    IviApplication {
+        id: iviApplication
+
+        signal ambientChangeRequested()
+        signal mediaChangeRequested()
+        signal naviChangeRequested()
+        signal pdcChangeRequested()
+        signal settingChangeRequested()
+
+        onAmbientChangeRequested: {
+            console.debug("Ambient page change requested!");
+            ambientScreen.visible = true;
+            mediaScreen.visible = false;
+            naviScreen.visible = false;
+            pDCScreen.visible = false;
+            settingScreen.visible = false;
+        }
+
+        onMediaChangeRequested: {
+            console.debug("Media page change requested!");
+            ambientScreen.visible = false;
+            mediaScreen.visible = true;
+            naviScreen.visible = false;
+            pDCScreen.visible = false;
+            settingScreen.visible = false;
+        }
+
+        onNaviChangeRequested: {
+            console.debug("Navi page change requested!");
+            ambientScreen.visible = false;
+            mediaScreen.visible = false;
+            naviScreen.visible = true;
+            pDCScreen.visible = false;
+            settingScreen.visible = false;
+        }
+
+        onPdcChangeRequested: {
+            console.debug("PDC page change requested!");
+            ambientScreen.visible = false;
+            mediaScreen.visible = false;
+            naviScreen.visible = false;
+            pDCScreen.visible = true;
+            settingScreen.visible = false;
+        }
+
+        onSettingChangeRequested:{
+            console.debug("Setting page change requested!");
+            ambientScreen.visible = false;
+            mediaScreen.visible = false;
+            naviScreen.visible = false;
+            pDCScreen.visible = false;
+            settingScreen.visible = true;
+        }
+
+        onIviSurfaceCreated: {
+
+            if (iviSurface.iviId === 1330) {
+                var ambient = chromeComponent.createObject(ambientScreen, { "shellSurface": iviSurface } );
+                ambient.handleResized();    
+            }
+            if (iviSurface.iviId === 1331) {
+                var media = chromeComponent.createObject(mediaScreen, { "shellSurface": iviSurface } );
+                media.handleResized();    
+            }
+            if (iviSurface.iviId === 1332) {
+                var navi = chromeComponent.createObject(naviScreen, { "shellSurface": iviSurface } );
+                navi.handleResized();    
+            }
+            if (iviSurface.iviId === 1333) {
+                var pdc = chromeComponent.createObject(pDCScreen, { "shellSurface": iviSurface } );
+                pdc.handleResized();    
+            }
+            if (iviSurface.iviId === 1334) {
+                var setting = chromeComponent.createObject(settingScreen, { "shellSurface": iviSurface } );
+                setting.handleResized();    
+            }
+        }
+    }
+
     WaylandOutput {
         sizeFollowsWindow: true
 
@@ -19,7 +110,51 @@ WaylandCompositor {
             visible: true
 
             Rectangle {
-                id: centerScreen
+                id: ambientScreen
+                width: parent.width / 2
+                height: parent.height
+                anchors {
+                    left: leftBar.right
+                    right: parent.right
+                    top: topBar.bottom
+                    bottom: parent.bottom
+                }
+            }
+            Rectangle {
+                id: mediaScreen
+                width: parent.width / 2
+                height: parent.height
+                anchors {
+                    left: leftBar.right
+                    right: parent.right
+                    top: topBar.bottom
+                    bottom: parent.bottom
+                }
+            }
+            Rectangle {
+                id: naviScreen
+                width: parent.width / 2
+                height: parent.height
+                anchors {
+                    left: leftBar.right
+                    right: parent.right
+                    top: topBar.bottom
+                    bottom: parent.bottom
+                }
+            }
+            Rectangle {
+                id: pDCScreen
+                width: parent.width / 2
+                height: parent.height
+                anchors {
+                    left: leftBar.right
+                    right: parent.right
+                    top: topBar.bottom
+                    bottom: parent.bottom
+                }
+            }
+            Rectangle {
+                id: settingScreen
                 width: parent.width / 2
                 height: parent.height
                 anchors {
@@ -112,6 +247,7 @@ WaylandCompositor {
                             anchors.fill: parent
                             onClicked: {
                                 //change ivi id 1332
+                                iviApplication.naviChangeRequested();
                             }
                         }
                     }
@@ -141,6 +277,7 @@ WaylandCompositor {
                             anchors.fill: parent
                             onClicked: {
                                 //change ivi id 1331
+                                iviApplication.mediaChangeRequested();
                             }
                         }
                     }
@@ -169,6 +306,7 @@ WaylandCompositor {
                             anchors.fill: parent
                             onClicked: {
                                 //change ivi id 1333
+                                iviApplication.pdcChangeRequested();
                             }
                         }
                     }
@@ -197,6 +335,7 @@ WaylandCompositor {
                             anchors.fill: parent
                             onClicked: {
                                 //change ivi id 1334
+                                iviApplication.settingChangeRequested();
                             }
                         }
                     }
@@ -227,30 +366,12 @@ WaylandCompositor {
                             anchors.fill: parent
                             onClicked: {
                                 //change ivi id 1330
+                                iviApplication.ambientChangeRequested();
                             }
                         }
                     }
                 }
             }
-        }
-    }
-    Component {
-        id: chromeComponent
-        ShellSurfaceItem {
-            anchors.fill: parent
-            onSurfaceDestroyed: destroy()
-            onWidthChanged: handleResized()
-            onHeightChanged: handleResized()
-            function handleResized() {
-                shellSurface.sendConfigure(Qt.size(width, height));
-            }
-        }
-    }
-    IviApplication {
-        onIviSurfaceCreated: {
-            var surfaceArea = centerScreen;
-            var item = chromeComponent.createObject(surfaceArea, { "shellSurface": iviSurface } );
-            item.handleResized();
         }
     }
 }

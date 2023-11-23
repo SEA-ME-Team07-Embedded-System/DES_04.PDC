@@ -23,7 +23,7 @@ Item {
             valueSource.fuel = battery; // Update kph property when speed changes
         }
         onGearChanged: {
-            console.log("onGearChanged")
+            //console.log("onGearChanged")
             valueSource.gear = gear;
         }
         onModeChanged: {
