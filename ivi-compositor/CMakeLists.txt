@@ -6,7 +6,6 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_PREFIX_PATH "/home/Qt/5.15.2/gcc_64")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++0x")
 
 include_directories(
@@ -27,7 +26,6 @@ find_package(Qt5 COMPONENTS Core Quick Gui Multimedia WaylandCompositor REQUIRED
 add_executable(ivi-compoitor
         src/main.cpp
         src/ivi-compositor.qrc
-        src/piracersomeipmanager.cpp
         ../piracer-interface/src-gen/v1/commonapi/PiracerSomeIPProxy.cpp
         ../piracer-interface/src-gen/v1/commonapi/PiracerSomeIPDeployment.cpp
 )
