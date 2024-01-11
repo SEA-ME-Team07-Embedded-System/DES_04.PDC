@@ -18,25 +18,32 @@ Window {
         id: mapPlugin
         name: "mapboxgl" // Mapbox plugin name //osm
     }
-    Map {
+    Map{
         id: map
         anchors.fill: parent
         plugin: mapPlugin
-        center: QtPositioning.coordinate(valueSource.lati, valueSource.longi) //valueSource.lati, valueSource.longi
+        center: positionSource.position.coordinate //valueSource.lati, valueSource.longi
         zoomLevel: 18
+        tilt:85                 //기울기
 
-    tilt:85
-    activeMapType: map.supportedMapTypes[0]
+        // 사용자의 현재 위치를 추적하는 PositionSource
+        PositionSource {
+            id: positionSource
+            active: true
+            updateInterval: 1000
+            onPositionChanged: {
+                map.center = position.coordinate
+            }
+        }
+        MapQuickItem {
+            id: arrow
+            coordinate: positionSource.position.coordinate
+            anchorPoint.x: arrowImage.width / 2
+            anchorPoint.y: arrowImage.height / 2
+            sourceItem: Image {
+                id: arrowImage
+                source: "qrc:/image/arrow_grey.png" // 화살표 이미지 경로
+            }
+        }
     }
-
-    Image{
-        id:arrow
-        anchors.horizontalCenter: parent.horizontalCenter
-        y: parent.height*0.5
-        width: parent.height*0.1
-        height: arrow.width
-        rotation:180
-        source:"qrc:/image/arrow_grey.png"
-    }
-    
 }
